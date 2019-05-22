@@ -1,0 +1,22 @@
+{
+  "name": "hot-donuts",
+  "version": "1.0.0",
+  "description": "Lets you know if your local hot-light is on.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "the panzacoder",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.459.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.0",
+    "serverless-http": "^2.0.2"
+  },
+  "devDependencies": {
+    "serverless-dynamodb-local": "^0.2.37",
+    "serverless-offline": "^4.10.5"
+  }
+}
