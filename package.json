@@ -10,10 +10,12 @@
   "author": "the panzacoder",
   "license": "ISC",
   "dependencies": {
+    "ask-sdk": "^2.5.2",
     "aws-sdk": "^2.459.0",
     "body-parser": "^1.19.0",
     "express": "^4.17.0",
-    "serverless-http": "^2.0.2"
+    "serverless-http": "^2.0.2",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "serverless-dynamodb-local": "^0.2.37",
